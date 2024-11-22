@@ -34,10 +34,10 @@ set -euo pipefail
 # Constants
 COREDNS_CONFIG="coredns-custom.yaml"
 DNS_JOB="dns-lookup-job.yaml"
-TARGET_HOSTNAME="example.com" # Edit
+TARGET_HOSTNAME="example.com" # Edit with a hostname to query. We should see the IP if everything is working.
 DNS_SERVER_1="168.63.129.16" # AzureDNS
-DNS_SERVER_2="198.51.100.1" # Edit
-DNS_SERVER_3="203.0.113.1"  # Edit
+DNS_SERVER_2="198.51.100.1" # Edit by adding your DNS Server
+DNS_SERVER_3="203.0.113.1"  # Edit by adding your DNS Server
 
 # Functions
 log() {
